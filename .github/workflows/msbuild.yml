@@ -56,5 +56,5 @@ jobs:
     - name: Upload artifacts
       uses: actions/upload-artifact@v1.0.0
       with:
-        name: Bundle exe
+        name: nvmetool-win
         path: "${{env.GITHUB_WORKSPACE}}\\a\\nvmetool-win-exe\\nvmetool-win-exe\\x64"
